@@ -4,12 +4,12 @@
 *{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  
 }
 body{
   background: linear-gradient(rgb(143, 220, 243, 0.6), rgb(35, 136, 230, 0.5));
   height: 100vh;
-
+  display: flex;
+  justify-content: center;
 }
 
 #heading{
@@ -25,11 +25,11 @@ body{
 
 }
 .container{
-  top: 50%;
+  top: 40%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  margin: 0, auto;
+  /* margin: 0, auto; */
   width: 300px;
   border: 10px solid rgb(68, 175, 224);
   text-align: center;
@@ -82,37 +82,4 @@ input{
 
 .highlight{
   background-color: whitesmoke;
-}
-
-
-@media screen and (max-width: 600px){
-  .container{
-    margin-top: -12%;
-  }
-}
-
-@media screen and (min-width: 601px){
-  .container{
-    margin-top: -8%;
-  }
-}
-
-@media screen and (min-width: 801px){
-  .container{
-    margin-top: -1.5%;
-  }
-}
-
-
-
-@media screen and (min-width: 1000px){
-  .container{
-    margin-top: 0.5%;
-  }
-}
-
-@media screen and (min-width: 1339px){
-  .container{
-    margin-top: 1.5%;
-  }
 }
