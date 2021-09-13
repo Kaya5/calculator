@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-    <div id='heading'>Simple React Calculator</div>
+    {/* <div id='heading'>Simple React Calculator</div> */}
       <div className="container">
         <form>
           <input type="text" value={total} />
